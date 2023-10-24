@@ -1,7 +1,9 @@
 # Relational-Databases-MySQL
+
 This project entails the design, definition, and implementation of a relational database tailored to the requirements of a hotel, along with the formulation of precise SQL queries, in accordance with the provided scenario.
 
 **Overview**
+
 The Guild Hotel is a resort hotel on the West Arm of Lake Minnetonka. It is a relatively small hotel, with three floors of rooms. The top floor includes two large suites, and each of the other floors has eight standard-sized hotel rooms. The ground floor includes the customer service counter, a lounge area, a small exercise room, and a restaurant. The hotel staff currently uses Excel spreadsheets to keep track of the rooms, guests, and reservations, and they have hired you to convert the existing data into a more flexible relational database.
 You will build a database that satisfies the third normal form (3NF) using the data provided here. While you are given the data itself, you are expected to identify the tables, fields, and relationships that will house this data.
 
@@ -9,25 +11,35 @@ You will build a database that satisfies the third normal form (3NF) using the d
 
 **Rooms**
 Room details are listed below:
+
 **Rooms 201–204 and 301–304**
+
 Each of these rooms is a Double room with two queen beds and can sleep up to 4 people.
 Each room includes a refrigerator or a microwave, but not both.
+
 **Rooms 205–208 and 305–308**
+
 Each of these rooms is a Single room with a single king bed and can sleep up to 2 people.
 Each room includes both a microwave and a refrigerator.
+
 **Rooms 401 and 402**
+
 Each suite includes two separate bedrooms: one with two queen-sized beds and the other with one king-sized bed.
 Each suite also includes a shared living room space with a sleeper sofa.
 Each suite can sleep up to 8 people.
 Each suite includes a full kitchen, with a refrigerator, an electric stove and oven, and a microwave oven.
 Each suite is ADA accessible.
+
 **Base Room Prices**
+
 The base prices for the rooms are the following:
 Double: $174.99/night for 2 adults, with an additional $10 for each additional adult per night.
 Single: $149.99/night for 2 adults.
 Suite: $399.99/night for 3 adults, with an additional $20 for each additional adult per night.
 A jacuzzi adds $25 to the base price.
+
 **Additional Data**
+
 All even-numbered rooms on the second and third floors are ADA accessible.
 All odd-numbered rooms on the second and third floors have a jacuzzi bath.
 Children (under age 18) do not incur additional charges if there is at least one adult per room on the reservation.
